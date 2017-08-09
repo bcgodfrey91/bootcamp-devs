@@ -5,11 +5,13 @@
 </template>
 
 <script>
+import firebase from '../firebase.js'
+
 export default {
-  name: 'Header',
+  name: 'JobList',
   data() {
     return {
-      msg: 'This is the header.',
+      msg: 'These are the jobs.',
     };
   },
 };
